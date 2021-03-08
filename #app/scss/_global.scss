@@ -1,0 +1,38 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+	box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+}
+
+body {
+	height: 100vh;
+	min-width: 320px;
+	padding: 25px 15px;
+	overflow: hidden;
+	font-family: "", "Arial", "sans-serif";
+	/* 	font-weight: ;
+	font-size: ;
+	line-height: ; */
+	@include bg-gradient;
+}
+
+.container {
+	padding: 0 10px;
+}
+
+a {
+	text-decoration: none;
+}

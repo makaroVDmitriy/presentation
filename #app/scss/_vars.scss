@@ -1,0 +1,13 @@
+$light-grey: #a0b8b6;
+
+@mixin bg-gradient {
+	background: -webkit-linear-gradient(45deg, rgb(152, 207, 195), rgb(86, 181, 184));
+	background: -moz-linear-gradient(45deg, rgb(152, 207, 195), rgb(86, 181, 184));
+	background: linear-gradient(45deg, rgb(152, 207, 195), rgb(86, 181, 184));
+}
+
+@mixin wrapper_box-shadow {
+	-webkit-box-shadow: -17px 16px 8px 0px rgba(34, 60, 80, 0.2);
+	-moz-box-shadow: -17px 16px 8px 0px rgba(34, 60, 80, 0.2);
+	box-shadow: -17px 16px 8px 0px rgba(34, 60, 80, 0.2);
+}
